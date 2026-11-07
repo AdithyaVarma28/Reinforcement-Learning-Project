@@ -22,7 +22,7 @@ question:
 | Safety layer | Immediate filter, **Monte-Carlo forecast consequence evaluator**, recoverability margin M_rec, P_unrec gate, graded fallback (RTB / rooftop landing / hover) | `src/rescue_route/safety` |
 | Evaluation | 9 methods × 11 stress profiles × 100 held-out seeds (9,900 paired episodes); paired bootstrap; oracle feasibility; post-hoc recovery check | `src/rescue_route/evaluation`, `reports/evaluation/` |
 | Demo | Isometric 2.5D Mission Control: replay, side-by-side comparison, live simulation, benchmark and weather pages | `src/rescue_route/demo/web` |
-| Docs | Source-audited formula inventory | `docs/FORMULA_INVENTORY.md` |
+| Docs | **Complete guide to every folder, file, module, the workflow and the algorithms** · source-audited formula inventory | `docs/PROJECT_GUIDE.md` · `docs/FORMULA_INVENTORY.md` |
 
 ## Results (held-out test seeds, all 11 stress profiles pooled, 1,100 paired missions per method)
 
